@@ -28,7 +28,7 @@ func (n *Notify) Send() error {
 
 	args := []string{
 		"-NoProfile",
-		"-NonInteractive"
+		"-NonInteractive",
 	}
 
 	args = append(args, psscript)
